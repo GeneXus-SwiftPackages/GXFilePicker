@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFilePicker",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-1.0.0-beta+20230328171001.xcframework.zip",
-			checksum: "ce303a3be8244e9523b8ad7232d822c0e423300e571f77e8de9e6fb6ec0941f5"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-1.0.0-beta+20230330152753.xcframework.zip",
+			checksum: "82d6ee694ffad3037f9ebb9e269f66adc0e395c2cbc3235f5f0b51fca9b47282"
 		)
 	]
 )
