@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXFilePicker",
-	platforms: [.iOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXFilePicker",
 			targets: ["GXFilePickerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.0.0-beta.9")
 	],
 	targets: [
 		.target(name: "GXFilePickerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFilePicker",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-3.0.0-beta.8.xcframework.zip",
-			checksum: "94334da3067037886b77e22ceb7cf3fb3a443f7d8d7bdfb30515487528faa11e"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-3.0.0-beta.9.xcframework.zip",
+			checksum: "d188ff8908dae9b5796367fceec3e24eb0921f4bfecbbb4e47856925dc5abaa2"
 		)
 	]
 )
