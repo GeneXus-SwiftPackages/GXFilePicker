@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXFilePickerWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.1.0-beta.16")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "3.1.0-beta.17")
 	],
 	targets: [
 		.target(name: "GXFilePickerWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXFilePicker",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-3.1.0-beta.16.xcframework.zip",
-			checksum: "dbee05f8cb128383d87925bece1b5cc420d4de9dfa1661fe3bfd6343f16ca261"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXFilePicker-3.1.0-beta.17.xcframework.zip",
+			checksum: "4dd8688c9da66ff9a9d9ba2c3611ee6908a5d1b93cedb8ff8b8b55d95181cdb2"
 		)
 	]
 )
